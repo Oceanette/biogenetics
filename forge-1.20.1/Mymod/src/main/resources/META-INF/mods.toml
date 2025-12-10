@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+issueTrackerURL="http://my.issue.tracker/"
+showAsResourcePack=false
+
+[[mods]]
+modId="biogenetics"
+version="0.0.1"
+displayName="Biogenetics"
+updateJSONURL="http://my.version.update/"
+displayURL="http://example.com/"
+logoFile="examplemod.png"
+credits="Bonni"
+authors="Bonni"
+description='''
+    Um mod sobre genetica e anomalias.
+    '''
+
+[[dependencies.biogenetics]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.biogenetics]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
