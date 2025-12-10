@@ -28,7 +28,7 @@ public class Biogenetics {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    // Registra a TELA no Cliente
+    // Registrou a TELA no Cliente
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
