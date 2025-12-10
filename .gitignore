@@ -1,4 +1,4 @@
-# IntelliJ
+﻿# IntelliJ
 .idea/
 *.iml
 
@@ -7,7 +7,7 @@
 build/
 target/
 
-# Sistema
+# OS
 .DS_Store
 Thumbs.db
 
